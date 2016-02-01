@@ -1,0 +1,22 @@
+﻿<Window x:Class="WordsCounter.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WordsCounter"
+        mc:Ignorable="d"
+        xmlns:views="clr-namespace:WordsCounter.Views"
+        Title="Words Counter" Height="350" Width="525">
+    <ScrollViewer>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+
+            <ContentControl ScrollViewer.VerticalScrollBarVisibility="Auto">
+                <views:WordsFrequencyView Grid.Row="0"/>
+            </ContentControl>
+        </Grid>
+    </ScrollViewer>
+</Window>

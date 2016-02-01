@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordsCounter", "WordsCounter\WordsCounter.csproj", "{23EBD847-1C03-4E30-AB27-274210FDC975}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordsCounter.Tests", "WordsCounter.Tests\WordsCounter.Tests.csproj", "{692F100B-A31F-4505-9B13-605FA053BE98}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{23EBD847-1C03-4E30-AB27-274210FDC975}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23EBD847-1C03-4E30-AB27-274210FDC975}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23EBD847-1C03-4E30-AB27-274210FDC975}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23EBD847-1C03-4E30-AB27-274210FDC975}.Release|Any CPU.Build.0 = Release|Any CPU
+		{692F100B-A31F-4505-9B13-605FA053BE98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{692F100B-A31F-4505-9B13-605FA053BE98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{692F100B-A31F-4505-9B13-605FA053BE98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{692F100B-A31F-4505-9B13-605FA053BE98}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
